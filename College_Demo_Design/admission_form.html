@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!----bootstrap 5 css-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!-------fontawesome-------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<title>Admission Form</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.body{
+
+width:100%;
+overflow-x:hidden;
+
+}
+
+</style>
+</head>
+<body class="body">
+<header>
+
+  <div class="header_body">
+
+    <div class="container-fluid bg-success text-light">
+    <div class="row text-center py-2  ">
+    
+     <div class="col-lg-5 col-sm-12  mt-2 mb-2 ">
+            <h5 class="pt-1"> &nbsp;শিক্ষা নিয়ে গড়বো দেশ, শেখ হাসিনার বাংলাদেশ</h5>
+      </div>
+    
+      <div class="col-lg-3 col-sm-12 mt-2 mb-2   ">
+        <h5 class="pt-1"> <i class="fa fa-phone" aria-hidden="true"></i> &nbsp;: 01720557180/90/100</h5>
+        </div> 
+    
+        <div class="col-lg-4 col-sm-12 mt-1 mb-3  ">
+          <a href="#" class="btn btn-light text-success">HSC Award 21</a>
+          <a href="#" class="btn btn-light text-success">Digital Content</a>
+          <a href="#" class="btn btn-light text-success">Prospectus</a>
+          
+        </div> 
+    
+            
+            <div> 
+            
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                          <li class="nav-item ">
+                            <a class="nav-link active  text-success" aria-current="page" href="index.html">Home</a>
+                          </li>
+                        
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              About Us
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="about-college.html">About College</a></li>
+                              <li><a class="dropdown-item" href="#">Chairman's Message</a></li>
+                              <li><a class="dropdown-item" href="#">Vice Chairman's Message</a></li>
+                             
+                              <li><a class="dropdown-item" href="#"> Principal's Message </a></li>
+                              <li><a class="dropdown-item" href="#"> At a Glance </a></li>
+                            </ul>
+                          </li>
+            
+            
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Facilities
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="library.html">Library</a></li>
+                          <li><a class="dropdown-item" href="#">Hostel</a></li>
+                          <li><a class="dropdown-item" href="#">Lab</a></li>
+                          <li><a class="dropdown-item" href="#"> BNCC </a></li>
+                          <li><a class="dropdown-item" href="#"> Transport </a></li>
+                            </ul>
+                          </li>
+            
+            
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Admission
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="hsc_admission.html">HSC Admission</a></li>
+                          <li><a class="dropdown-item" href="admission_information.html">Admission Information</a></li>
+                          <li><a class="dropdown-item" href="admission_form.html">Admission Form</a></li>
+                          
+                            </ul>
+                          </li>
+            
+            
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Academic
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">College Fee</a></li>
+                          <li><a class="dropdown-item" href="#">College Fee</a></li>
+                          <li><a class="dropdown-item" href="#">Class Book</a></li> 
+                            </ul>
+                          </li>
+            
+            
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Campus
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Dhaka</a></li>
+                          <li><a class="dropdown-item" href="#">Chattogram</a></li>
+                          <li><a class="dropdown-item" href="#">Naraynganj</a></li>
+                            </ul>
+                          </li>
+            
+            
+            
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Administration
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Managenent Commmittee</a></li>
+                          <li><a class="dropdown-item" href="#">Faculty Memember</a></li>
+                          <li><a class="dropdown-item" href="#">Notice Board</a></li>
+                            </ul>
+                          </li>
+            
+            
+                          <li class="nav-item">
+                            <a class="nav-link text-success" href="#">Contact Us</a>
+                          </li>
+            
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            
+            
+                </div>  
+
+
+
+  </header>
+
+
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h3 style="font-size:50px">Admission Form</h3>
+  
+    
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+        <div class="bg-success text-center text-light pt-2 py-1 m-5">
+          
+            <h5 class="p-2">কাদশ শ্রেণি পর্যন্ত ভর্তি ফরম</h5>
+        </div>
+
+
+<div class="container">
+   <div class="row m-5 p-3">
+
+
+    <div class=" col-lg-6 col-sm-12 ">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-12 ">
+                <img src="https://www.petersons.com/blog/wp-content/uploads/2021/07/iStock-1069245848.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
+              </div>
+               <div class="card-body text-center ">
+                 <a href="#" class="btn btn-success">HSC Addmission</a>
+                </div>
+              </div>
+
+            </div>
+        </div>
+      
+
+    <div class=" col-lg-6 col-sm-12 ">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-12 ">
+                <img src="https://www.petersons.com/blog/wp-content/uploads/2021/07/iStock-1069245848.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
+              </div>
+               <div class="card-body text-center ">
+                 <a href="#" class="btn btn-success">HSC Addmission Information</a>
+                </div>
+              </div>
+
+            </div>
+        </div>
+      
+
+ </div>
+</div>
+<!----card---end-->
+
+
+
+<div class="container">
+    <div class="row m-5 p-3">
+
+
+<div class=" col-lg-6 col-sm-12 ">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-12 ">
+            <img src="https://www.petersons.com/blog/wp-content/uploads/2021/07/iStock-1069245848.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
+          </div>
+           <div class="card-body text-center ">
+             <a href="#" class="btn btn-success"> Addmission form</a>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+</main>
+
+
+
+
+ 
+<!-------------footer start--------->
+<footer>
+
+  <div class ="row text-left bg-success text-md-center py-5 text-light"> 
+    <div class="col-lg-3  col-md-6 sm-12 my-auto ">
+       
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/American_International_University-Bangladesh_Monogram.svg/1200px-American_International_University-Bangladesh_Monogram.svg.png" class="rounded-circle" alt="Cinque Terre" width="100" height="100"><h4>American International University - Bangladesh </h4>
+                 
+      <p><i class="fa-solid fa-location-dot  "></i>&nbsp;408/1, Kuratoli, Khilkhet, Dhaka 1229, Bangladesh</p>
+      <p>  <i class="fa-solid fa-envelope"></i>&nbsp; cgprincipal@ymail.com </p>
+      <p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;02-9666058 </p>
+      </div>
+   
+        <div class="col-lg-3 col-md-6 my-auto ">
+        
+          <h3 style="text-align:left">Become AIUBian</h3>
+    
+          <ul class="nav flex-column " style="text-align:left ">
+            <li class="nav-item">
+              <a class="nav-link active  text-light" href="#">Future Students</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">  On Campus </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Admission</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Tuition Fees</a>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Scholarships</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Apply Now</a>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Holiday List </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#"> শিক্ষক বাতায়ন </a>
+              </li>
+            
+          </ul>
+          
+
+          </div>
+
+            <div class="col-lg-3  col-md-6" style="text-align:left">
+                
+                <h5 class="text-uppercase text-light" >Academics Links</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="#">Academic Calendar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">  Academic Regulations </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Sciences</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Commerce</a>
+                  </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-light" href="#">Arts</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="#">HSC Student Panel</a>
+      
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Teacher's Panel</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Employee's Panel </a>
+                    </li>
+                    
+                  
+                </ul>
+              </div>
+
+                <div class="col-lg-3 col-md-6 " style="text-align:left">
+                    
+                    <h5 class="text-uppercase text-light">Important Links</h5>
+
+
+
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" href="#">EMIS Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#"> iBAS++ LOGIN </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#"> Pay Fixation</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-light" href="#">All Govt.Forms</a>
+                      </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-light" href="#">All cadre PMIS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="#">Innovations</a>
+          
+                        </li>
+                      
+                    </ul>
+
+                    
+                  </div>
+    </div> </div> 
+    
+
+
+<!---------icon start----------->
+
+<div class ="row text-left bg-white text-md-center py-2">
+
+ 
+
+<div class="row">
+
+<div class="col-12 text-success">
+<div class="icon" style="  text-align:right;font-size:30px;  ">
+
+<i class="fa fa-facebook-square  " >&nbsp;</i>
+<i class="fa fa-linkedin" >&nbsp;</i>
+<i class="fa fa-twitter" >&nbsp;</i>
+<i class="fa fa-youtube-square">&nbsp;</i>
+<i class="fa fa-instagram" >&nbsp;</i>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!---------icon end------------------>
+
+
+</footer>
+<!-------------footer end--------->
+
+
+
+
+<!----bootstrap 5 javascript,js etc---->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script> 
+
+</body>
+</html>
+</body>
+</html>
